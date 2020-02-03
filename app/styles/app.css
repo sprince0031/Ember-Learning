@@ -65,17 +65,48 @@ body {
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
+    background: #fff;
 
 }
-.navbar ul.nav li a {
+.navbar ul.nav li a.login {
     color: #fff;
     text-decoration: none;
     background: #b00;
     border: 1px solid #b00;
 }
 
-.navbar ul.nav li a:hover {
+.navbar ul.nav li a.login:hover {
     color: #b00;
     background: #fff;
     border: 1px solid #b00;
+}
+
+.navbar-brand h1 {
+    margin-top: -8px;
+    color: #000;
+}
+
+.navbar-collapse ul {
+    color: #000;
+}
+
+/* 
+* footer
+*/
+
+footer .glyphicon-heart {
+    color: red;
+}
+
+footer .glyphicon span {
+    color: whitesmoke;
+}
+
+footer .glyphicon span#slash {
+    font-size: 18px;
+    font-weight:bold;
+}
+
+footer #footerText {
+    text-align: center;
 }
